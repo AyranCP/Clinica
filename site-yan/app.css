@@ -1,0 +1,56 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+header .top-nav {
+    width: 100%;
+    height: fit-content;
+    padding: 20px;
+    justify-content: space-around;
+    display: flex;
+    flex-direction: row;
+    background-color: #17a9a0;
+}
+
+header .top-nav .contato {
+    font-size: 19px;
+    color: #fff;
+}
+
+header .top-nav .contato .fortim {
+    color: #c8f7f5;
+}
+
+header .top-nav .funcionamento-horario p {
+    color:#c8f7f5 ;
+}
+
+header .logo {
+    display: flex;
+    justify-content: center;
+    padding: 20px;
+}
+
+header .lista ul {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    list-style: none;
+    background-color: rgba(230, 230, 230, 0.5);
+    padding: 20px;
+    font-size: 20px;
+}
+
+header .lista ul li a {
+    text-decoration: none;
+}
+
+header .lista ul li a:hover {
+    color: rgba(53, 99, 105, 0.5);
+}
+
+body .tela  {
+    display: flex;
+    justify-content: center;
+}
